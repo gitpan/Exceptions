@@ -1,5 +1,4 @@
-Changes
-Exceptions.pm
-MANIFEST
 Makefile.PL
-test.pl
+README
+TODO
+lib/Exceptions.pm

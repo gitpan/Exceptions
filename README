@@ -1,0 +1,26 @@
+-*- Outline -*- $Format: "* Version $ExceptionsRelease$"$
+* Version 0.002
+
+* Description
+
+Mostly object-oriented exceptions: throw them (as objects, to your taste);
+catch them (by class if desired); run finally blocks; etc.
+
+This is experimental and in transition; I have just taken it over from
+P. Seibel and am making interface changes.
+
+This module will probably disappear when exception-handling is integrated into
+the core, or becomes a standard facility somehow.
+
+* DLSI Synopsis
+
+Exceptions			OO-style exception handling.			adpO
+
+* Installation
+
+perl Makefile.PL && make all test install. You need ModsPragma 0.004 or above,
+look in $CPAN/authors/id/JGLICK.
+
+* Author
+
+Jesse Glick <jglick@sig.bsh.com>

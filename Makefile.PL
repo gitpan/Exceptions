@@ -1,11 +1,14 @@
+#!/sig/local/bin/perl5 -w
+
 use ExtUtils::MakeMaker;
-# See lib/ExtUtils/MakeMaker.pm for details of how to influence
-# the contents of the Makefile that is written.
+
 WriteMakefile(
-    'NAME'	=> 'Exceptions',
-    'VERSION' => '0.01',
-    'dist' => {
-	       COMPRESS => 'gzip',
-	       SUFFIX => 'gz',
-	      },
+# $Format: " VERSION => '$ExceptionsRelease$',"$
+ VERSION => '0.002',
+              NAME => 'Exceptions',
+	      PREREQ_PM => {
+			    mods => 0.004,
+			    Data::Dumper => 2.07
+			   },
+#	      EXE_FILES => []
 );

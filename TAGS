@@ -1,0 +1,19 @@
+
+lib/Exceptions.pm,471
+sub try (&@) {try21,594
+sub with (&@) {with115,2997
+sub otherwise (&)  {otherwise125,3424
+sub except (&@) {except131,3509
+sub finally (&@) {finally145,3946
+sub init {init162,4256
+sub catch {catch174,4542
+sub catch_ {catch_178,4577
+sub throw () {throw187,4712
+*raise=raise211,5348
+sub dump {dump213,5415
+sub print {print223,5591
+sub new {new233,5712
+sub dump {dump238,5785
+sub new {new256,6142
+sub dump {dump272,6734
+sub new {new297,7261
